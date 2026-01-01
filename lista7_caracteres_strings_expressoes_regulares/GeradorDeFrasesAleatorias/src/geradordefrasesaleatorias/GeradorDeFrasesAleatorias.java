@@ -58,6 +58,11 @@ public class GeradorDeFrasesAleatorias {
             indiceAleatorio = indiceAleatorio<0?indiceAleatorio*-1:indiceAleatorio;
             frase.append(verbos[indiceAleatorio]);
             frase.append(" ");
+                        
+            indiceAleatorio = random.nextInt() % 4;
+            indiceAleatorio = indiceAleatorio<0?indiceAleatorio*-1:indiceAleatorio;
+            frase.append(preposicoes[indiceAleatorio]);
+            frase.append(" ");
             
             indiceAleatorio = random.nextInt() % 4;
             indiceAleatorio = indiceAleatorio<0?indiceAleatorio*-1:indiceAleatorio;
