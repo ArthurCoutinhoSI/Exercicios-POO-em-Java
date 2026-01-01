@@ -1,0 +1,11 @@
+# Pastas de build
+build/
+dist/
+
+# Arquivos de configuração locais do NetBeans
+nbproject/private/
+
+# Arquivos compilados
+*.class
+*.txt
+*.bat  
