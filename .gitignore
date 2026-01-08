@@ -1,9 +1,13 @@
 # Pastas de build
 build/
 dist/
+build.xml
 
 # Arquivos de configuração locais do NetBeans
-nbproject/private/
+nbproject/
+
+# Manifesto
+manifest.mf
 
 # Arquivos compilados
 *.class
