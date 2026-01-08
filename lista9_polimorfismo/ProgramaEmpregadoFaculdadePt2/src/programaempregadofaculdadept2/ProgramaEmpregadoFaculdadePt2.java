@@ -18,7 +18,7 @@ public class ProgramaEmpregadoFaculdadePt2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-//        Questão 6: [];
+//        Questão 6: []
 //Crie uma classe EmpregadoFaculdade. Essa classe deve conter os campos nome (String) e salarioBase
 //(double). Essa classe deve conter um método abstract calculaSalario(). Implemente uma classe
 //FuncionarioFaculdade, que deve estender a classe EmpregadoFaculdade. Além disso, a classe
