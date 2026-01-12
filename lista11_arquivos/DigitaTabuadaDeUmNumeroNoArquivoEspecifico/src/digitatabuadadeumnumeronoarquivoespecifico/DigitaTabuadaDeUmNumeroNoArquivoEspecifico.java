@@ -19,7 +19,9 @@ public class DigitaTabuadaDeUmNumeroNoArquivoEspecifico {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+//         Questão 3: []
+// Faça um programa que peça para o usuário digitar um inteiro e um caminho para gravar um arquivo. Em seguida,
+// grava no arquivo a tabuada do número digitado pelo usuário. As informações devem ser fornecidas via teclado.
         
         try {
             
