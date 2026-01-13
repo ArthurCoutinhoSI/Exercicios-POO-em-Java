@@ -2,18 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package imprimedadosdodiretorio;
+package imprimedadosdodiretorioversaojavanio;
 
 import java.nio.file.*;
 import java.util.Iterator;
-import java.util.stream.Stream;
 import javax.swing.JOptionPane;
 
 /**
  *
  * @author Arthur Coutinho
  */
-public class ImprimeDadosDoDiretorio {
+public class ImprimeDadosDoDiretorioVersaoJavaNio {
 
     /**
      * @param args the command line arguments

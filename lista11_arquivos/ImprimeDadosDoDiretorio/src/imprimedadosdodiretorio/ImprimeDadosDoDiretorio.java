@@ -38,6 +38,7 @@ public class ImprimeDadosDoDiretorio {
                 
                 System.out.println("Conteúdo: " + leitor.readAllAsString() + "\n\n");
                 
+                leitor.close();
             } catch (IOException ioe) {
                 System.err.println("deu errado aqui ó!");
             }
