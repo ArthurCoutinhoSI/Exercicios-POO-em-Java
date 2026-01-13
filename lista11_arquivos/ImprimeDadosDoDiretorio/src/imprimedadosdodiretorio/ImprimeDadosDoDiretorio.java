@@ -4,8 +4,10 @@
  */
 package imprimedadosdodiretorio;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import javax.swing.JOptionPane;
 
 /**
@@ -32,10 +34,12 @@ public class ImprimeDadosDoDiretorio {
         for (File file : arquivo.listFiles()) {
             System.out.println("Nome do arquivo: "
                     + file.getName() + "\n");
-            try {
-                FileReader leitor = new FileReader(file);
+            try (BufferedReader leitor = new BufferedReader( new FileReader(file))) {
+                
                 System.out.println("Conteúdo: " + leitor.readAllAsString() + "\n\n");
-            } catch (Exception e) {
+                
+                leitor.close();
+            } catch (IOException ioe) {
                 System.err.println("deu errado aqui ó!");
             }
         }
