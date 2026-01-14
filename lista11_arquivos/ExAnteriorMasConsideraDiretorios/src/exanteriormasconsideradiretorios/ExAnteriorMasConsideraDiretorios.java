@@ -2,31 +2,30 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package usafilechooser;
+package exanteriormasconsideradiretorios;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
 import javax.swing.JFileChooser;
 
 /**
  *
  * @author Arthur Coutinho
  */
-public class UsaFileChooser {
+public class ExAnteriorMasConsideraDiretorios {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-          // TODO code application logic here
-//Questão 6: []
-//Repita o exercício anterior só que o diretório deve ser informado por meio do utilizando a classe JFileChooser
-//e, além do nome do arquivo, devem ser exibidos o tamanho do arquivo e a data da última modificação.
+        // TODO code application logic here
+//        Questão 7: []
+//Repita o exercício anterior só que agora considere que o diretório informado pelo usuário possui outros diretórios
+//dentro dele, que por sua vez possuem arquivos texto. Imprima na tela o nome do arquivo e os conteúdos dos arquivos
+//de todos os diretórios. Considere o arquivo da primeira etapa do “Projeto Banco” para realizar o exercício.
         
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
@@ -40,8 +39,20 @@ public class UsaFileChooser {
         File arquivo = fileChooser.getSelectedFile();
 
         File[] files = arquivo.listFiles();
+        mostraDadosDosArquivosDoDiretorio(files);
+        
+    }
+    
+    public static void mostraDadosDosArquivosDoDiretorio(File[] files){
         for (int i = 0; i < files.length; i++) {
             File file = files[i];
+            
+            if (file.isDirectory()) {
+                System.out.println("Diretorio: "
+                        + file.getName());
+                File[] diretorio = file.listFiles();
+                mostraDadosDosArquivosDoDiretorio(diretorio);
+            }
             
             System.out.println("Nome do arquivo: "
                     + file.getName() + "\n");
@@ -60,6 +71,6 @@ public class UsaFileChooser {
                 System.err.println("deu errado aqui ó!");
             }
         }
-    }  
+    }
     
 }
