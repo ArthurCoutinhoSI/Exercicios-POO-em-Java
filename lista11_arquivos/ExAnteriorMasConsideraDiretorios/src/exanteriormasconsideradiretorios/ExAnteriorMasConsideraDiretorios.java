@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Instant;
+import java.util.Arrays;
 import javax.swing.JFileChooser;
 
 /**
@@ -47,30 +48,41 @@ public class ExAnteriorMasConsideraDiretorios {
         for (int i = 0; i < files.length; i++) {
             File file = files[i];
             
-            if (file.isDirectory()) {
+            if (file.getName().matches("\\.git([\\w])*")){
+                //ignora todos os arquivos e diretorios que começam com .git
+            }else if (file.isDirectory()) {
+                
                 System.out.println("Diretorio: "
                         + file.getName());
                 File[] diretorio = file.listFiles();
-                mostraDadosDosArquivosDoDiretorio(diretorio);
-            }
-            
-            System.out.println("Nome do arquivo: "
-                    + file.getName() + "\n");
-            
-            System.out.println("Tamanho do arquivo: "
-                    + file.length()+ "\n");
-            
-            Instant ultimaModificacao = Instant.ofEpochMilli(file.lastModified());
-            System.out.println("ltima modificação do arquivo: "
-                    + ultimaModificacao + "\n");
-            
-            try (BufferedReader leitor = new BufferedReader( new FileReader(file))) {
-                System.out.println("Conteúdo: " + leitor.readAllAsString() + "\n\n");
                 
-            } catch (IOException ioe) {
-                System.err.println("deu errado aqui ó!");
-            }
+                System.out.println(Arrays.toString(diretorio) + "\n");
+                
+                mostraDadosDosArquivosDoDiretorio(diretorio);
+            }else{
+                mostraInfoDoArquivo(file);
+            }           
         }
+    }
+    
+    public static void mostraInfoDoArquivo(File file){
+        System.out.println("Nome do arquivo: "
+                        + file.getName());
+
+                System.out.println("Tamanho do arquivo: "
+                        + file.length());
+
+                Instant ultimaModificacao = Instant.ofEpochMilli(file.lastModified());
+                System.out.println("ultima modificação do arquivo: "
+                        + ultimaModificacao);
+                
+                try (BufferedReader leitor = new BufferedReader( new FileReader(file))) {
+                System.out.println("Conteúdo: \n" + leitor.readAllAsString() + "\n"
+                        + "--------------------------------------------------------\n");
+
+                } catch (IOException ioe) {
+                    System.err.println("deu errado aqui ó!");
+                }
     }
     
 }
