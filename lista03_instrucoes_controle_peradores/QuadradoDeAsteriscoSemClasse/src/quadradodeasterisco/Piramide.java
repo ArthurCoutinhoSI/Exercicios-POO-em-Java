@@ -6,7 +6,7 @@ package quadradodeasterisco;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Piramide {
     private int baseDaPiramide;

@@ -7,7 +7,7 @@ package empregadorendaliquidamain;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class EmpregadoRendaLiquidaMain {
 

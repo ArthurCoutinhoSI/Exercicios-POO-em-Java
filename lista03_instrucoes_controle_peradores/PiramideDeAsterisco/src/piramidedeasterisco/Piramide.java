@@ -6,7 +6,7 @@ package piramidedeasterisco;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Piramide {
     

@@ -6,7 +6,7 @@ package programamathvetor;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class MathVetor {
     public static Double produtoVetor(Double[] vetor){

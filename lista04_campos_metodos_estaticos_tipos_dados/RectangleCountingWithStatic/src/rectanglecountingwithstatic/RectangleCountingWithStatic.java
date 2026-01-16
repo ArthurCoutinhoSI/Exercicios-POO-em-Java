@@ -7,7 +7,7 @@ package rectanglecountingwithstatic;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class RectangleCountingWithStatic {
 

@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Fatorial {
 

@@ -7,7 +7,7 @@ package contaatevintedecincoemcinco;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class ContaAteVinteDeCincoEmCinco {
 

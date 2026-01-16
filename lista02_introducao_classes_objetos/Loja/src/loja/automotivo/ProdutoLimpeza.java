@@ -6,7 +6,7 @@ package loja.automotivo;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class ProdutoLimpeza {
     private String tipo;

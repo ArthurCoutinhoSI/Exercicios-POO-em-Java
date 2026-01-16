@@ -7,7 +7,7 @@ package testedepreincremendo;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TesteDePreIncremento {
 

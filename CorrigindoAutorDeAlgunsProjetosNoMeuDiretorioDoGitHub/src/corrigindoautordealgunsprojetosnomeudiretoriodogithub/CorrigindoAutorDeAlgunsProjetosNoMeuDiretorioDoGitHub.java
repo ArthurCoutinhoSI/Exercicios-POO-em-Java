@@ -34,7 +34,7 @@ public class CorrigindoAutorDeAlgunsProjetosNoMeuDiretorioDoGitHub {
     
     public static void buscaArquivos(File diretorio){
         for (File file : diretorio.listFiles()) {
-            if (diretorio.getName().startsWith("\\.git")) {
+            if (diretorio.getName().startsWith(".git")) {
                 //ignora o .git do repositorio
                 continue;
             }            
@@ -59,7 +59,7 @@ public class CorrigindoAutorDeAlgunsProjetosNoMeuDiretorioDoGitHub {
             ioe.printStackTrace();
         }
         
-        conteudo.replace(0, conteudo.length() ,conteudo.toString().replaceAll("Andressa", "Arthur Coutinho"));
+        conteudo.replace(0, conteudo.length() ,conteudo.toString().replaceAll("Arthur Coutinho", "Arthur Coutinho"));
         
         try (BufferedWriter arquivo = new BufferedWriter(new FileWriter(file))){
             

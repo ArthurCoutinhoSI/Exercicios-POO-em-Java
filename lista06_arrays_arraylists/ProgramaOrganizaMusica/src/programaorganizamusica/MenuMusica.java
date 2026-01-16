@@ -6,7 +6,7 @@ package programaorganizamusica;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public enum MenuMusica {
     

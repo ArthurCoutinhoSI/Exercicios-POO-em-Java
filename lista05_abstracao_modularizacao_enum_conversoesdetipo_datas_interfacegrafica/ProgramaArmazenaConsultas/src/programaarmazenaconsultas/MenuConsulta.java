@@ -6,7 +6,7 @@ package programaarmazenaconsultas;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public enum MenuConsulta {
     CRIAR_CONSULTA(1, "Criar Consulta"), ALTERAR_DADOS_PESSOAIS(2, "Alterar dados pessoais"), ALTERAR_DATA(3, "Alterar data"), ALTERAR_HORA(4, "Alterar hora"), SAIR(5, "Sair");

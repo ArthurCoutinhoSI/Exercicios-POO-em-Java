@@ -6,7 +6,7 @@ package rectanglecountingwithstatic;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Rectangle {
     private int hight;

@@ -6,7 +6,7 @@ package terminalticketmain;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TerminalTicket {
     private double valor;

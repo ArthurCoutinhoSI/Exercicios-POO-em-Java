@@ -6,7 +6,7 @@ package loja.eletronicos;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TV {
     private String marca;

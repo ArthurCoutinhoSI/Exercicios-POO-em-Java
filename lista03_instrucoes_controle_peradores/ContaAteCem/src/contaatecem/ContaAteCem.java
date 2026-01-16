@@ -7,7 +7,7 @@ package contaatecem;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class ContaAteCem {
 

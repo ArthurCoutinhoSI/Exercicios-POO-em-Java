@@ -6,7 +6,7 @@ package matematicamain;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Matematica {
     

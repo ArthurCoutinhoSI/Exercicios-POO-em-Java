@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TerminalTicketMain {
     public static void main(String[] args) {

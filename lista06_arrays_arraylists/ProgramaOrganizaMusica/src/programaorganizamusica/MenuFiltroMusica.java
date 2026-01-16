@@ -6,7 +6,7 @@ package programaorganizamusica;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public enum MenuFiltroMusica {
     TITULO(1, "Título"), ARTISTA(2, "Artista"), GENERO(3, "Genero");

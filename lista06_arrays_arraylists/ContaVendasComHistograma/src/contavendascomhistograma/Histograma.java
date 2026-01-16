@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Histograma {
     private ClasseDeVenda primeiraClasse = new ClasseDeVenda(0, 300);

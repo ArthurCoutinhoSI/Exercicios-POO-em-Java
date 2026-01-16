@@ -6,7 +6,7 @@ package tabuleirodexadrezdetamanhovariavel;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TabuleiroXadrez {
     private int tamanhoDoTabuleiro;

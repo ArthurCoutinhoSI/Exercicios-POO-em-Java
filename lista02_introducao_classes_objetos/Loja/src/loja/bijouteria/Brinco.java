@@ -6,7 +6,7 @@ package loja.bijouteria;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Brinco {
     private String Descricao;

@@ -7,7 +7,7 @@ package frequenciacardiacadeduaspessoas;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class FrequenciaCardiacaDeDuasPessoas {
 

@@ -7,7 +7,7 @@ package programamathvetor;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class ProgramaMathVetor {
 

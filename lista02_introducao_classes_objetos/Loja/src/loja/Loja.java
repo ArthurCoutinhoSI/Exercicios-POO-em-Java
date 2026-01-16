@@ -14,7 +14,7 @@ import loja.eletronicos.TV;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Loja {
 

@@ -6,7 +6,7 @@ package empregadorendaliquidamain;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Empregado {
     private String nome;

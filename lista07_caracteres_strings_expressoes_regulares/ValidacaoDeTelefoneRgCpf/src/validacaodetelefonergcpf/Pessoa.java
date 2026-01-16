@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Pessoa {
     private String nome;

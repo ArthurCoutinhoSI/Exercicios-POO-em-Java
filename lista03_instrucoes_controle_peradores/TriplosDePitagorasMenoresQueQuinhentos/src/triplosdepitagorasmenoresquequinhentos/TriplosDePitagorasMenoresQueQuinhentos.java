@@ -7,7 +7,7 @@ package triplosdepitagorasmenoresquequinhentos;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class TriplosDePitagorasMenoresQueQuinhentos {
 

@@ -6,7 +6,7 @@ package somavendasdosvendedores;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Vendedor {
     private String nome;

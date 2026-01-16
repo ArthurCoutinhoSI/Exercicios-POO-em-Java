@@ -7,7 +7,7 @@ package eletronicos;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Loja {
 

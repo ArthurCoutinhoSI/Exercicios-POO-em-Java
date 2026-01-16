@@ -6,7 +6,7 @@ package sistemadereservadeacentosaereos;
 
 /**
  *
- * @author Andressa
+ * @author Arthur Coutinho
  */
 public class Aeronave {
     private String modelo;
