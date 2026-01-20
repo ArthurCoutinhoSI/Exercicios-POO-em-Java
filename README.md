@@ -2,6 +2,8 @@
 
 Repositório contendo exercícios práticos de **Programação Orientada a Objetos (POO) em Java**, organizados por tópicos e dificuldade progressiva.
 
+**Criado para fins educacionais próprios - Aprendizado de POO em Java**
+
 ## 📋 Estrutura do Projeto
 
 ### Lista 01 - Conceitos Iniciais
@@ -119,4 +121,4 @@ Manipulação de arquivos em Java
 
 ---
 
-**Criado para fins educacionais próprios - Aprendizado de POO em Java**
+**Reitera-se: Criado para fins educacionais próprios - Aprendizado de POO em Java**

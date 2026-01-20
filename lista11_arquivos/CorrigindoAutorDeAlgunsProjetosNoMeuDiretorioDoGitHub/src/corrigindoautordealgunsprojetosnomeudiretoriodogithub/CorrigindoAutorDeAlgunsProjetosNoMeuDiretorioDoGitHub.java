@@ -27,7 +27,7 @@ public class CorrigindoAutorDeAlgunsProjetosNoMeuDiretorioDoGitHub {
 //        notebook emprestado, portanto, o nome do autor nos arquivos estão inconsistentes.
 //        vamos arrumar isso!
         
-        File diretorio = new File("..\\");
+        File diretorio = new File("..\\..\\");
         
         buscaArquivos(diretorio);
     }
